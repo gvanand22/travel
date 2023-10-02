@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+section{
+    margin: 3em;
+}
+.landing{
+    margin-bottom: 12em;
+}
+.nav-bar{
+    display: flex;
+    padding-left: 2em;
+}
+
+.lt-div ul li{
+    display: inline-block;
+    padding: 0.25em 1.5em;
+}
+.lt-div ul li a{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+.lt-div ul li a.active{
+    font-size: 22px;
+    font-weight: 700;
+}
+.rt-div{
+    display: inline-block;
+    border: solid 3px black;
+    padding: 0.5em 2.5em;
+    border-radius: 5px;
+    position: absolute;
+    right: 8.5em;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.content{
+    display: flex;
+    margin-top: 8em;
+    max-width: 100%;
+    overflow: hidden;
+}
+.lt-msg{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: auto;
+    padding-left: 3em;
+}
+.lt-msg h1{
+    font-weight: bolder;
+    font-size: 75px;
+}
+.lt-msg p{
+    text-align: justify;
+}
+.lt-msg button{
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    border-radius: 3.5px;
+    width: 180px;
+    height: 3em;
+    margin-top: 2em;
+}
+
+.rt-img img{
+    width: 600px;
+    height: auto;
+    padding-left: 7.5em;
+}
+
+.memory{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    margin-bottom: 10em;
+}
+.mem{
+    height: fit-content;
+    text-align: center;
+    padding: 0em 27em;
+}
+.mem h1{
+    font-weight: bolder;
+    font-size: 45px;
+    padding-top: 1em;
+    text-align: center;
+}
+.mem p{
+    padding: 0.5em 0em;
+    font-size: 15px;
+    text-align: center;
+}
+.mem button{
+    border: solid 3px white;
+    background-color: transparent;
+    color: white;
+    padding: 0.5em 2.5em;
+    border-radius: 5px;
+    margin: 1.5em 0em;
+    align-items: center;
+}
+
+.places{
+    display: flex;
+    gap: 2.5em;
+    padding-left: 2.5em;
+    max-width: 100%;
+    overflow: hidden;
+}
+.pla{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    width: 360px;
+}
+.places h1{
+    padding: 1em 0em;
+    /* width: 350px; */
+    font-weight: bold;
+    font-size: 40px;
+}
+.places p{
+    color: black;
+    /* width: 350px; */
+}
+
+
+.explore{
+    margin-top: 15em;
+    margin-bottom: 10em;
+}
+.exp-hed h1{
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+.exp-con{
+    margin-top: 5em;
+    padding-left: 7.5em;
+    display: flex;
+}
+.exp-txt{
+    margin-top: 3em;
+}
+.txt-1{
+    border-top: solid black 3px;
+}
+.exp-txt p{
+    border-bottom: solid black 3px;
+    padding: 0.75em 1.5em;
+}
+
+.exp-img{
+    margin-left: 7.5em;
+}
+
+
+.suggestion{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+.sug-hed{
+   text-align: center; 
+   margin: 1.5em 0em;
+}
+.sug-hed h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.sug{
+    border: 3px solid black;
+    border-radius: 7.5px;
+    padding: 2.5em;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sug h2{
+    margin: 0.5em 0em 0.25em;
+    text-align: center;
+}
+.sug p{
+    margin: 0.25em 0em 0.5em;
+    text-align: center;
+}
+
+
+.feedback{
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+    max-width: 100%;
+    /* overflow: hidden; */
+}
+.feed-form{
+    max-width: 400px;
+    min-width: auto;
+}
+.feed-form h1{
+    font-weight: bolder;
+    font-size: 65px;
+}
+.feed-form input{
+    display: block;
+    margin: 1em 0em;
+    width: 360px;
+    height: 2.5em;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 0.25em 1.5em ;
+}
+.feed-form button{
+    width: 390px;
+    height: 3.5em;
+    background-color: black;
+    color: white;
+    margin-left: 5px;
+    margin-top: 1.75em;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+}
+#fbak{
+    height: 120px;
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: left;
+    color: gray;
+    margin-left: 0;
+}
+.feed-img{
+    margin-left: 4em;
+}
+
+
+.footer{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(207, 207, 207);
+}
+.foot{
+    padding: 5.5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-hed{
+    font-weight: bolder;
+    font-size: 40px;
+    width: 300px;
+}
+.qck h2{
+    display: block;
+}
+.qck-lks{
+    display: flex;
+    gap: 5em;
+    margin: 2.5em 0em;
+}
+/* .qck-lks a{
+
+} */
+
+
+.cc-rts{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 1.5em;
+}
